@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<!-- Tells the browser this is a modern HTML5 page -->
+<html lang="en">
+<!-- Starts the HTML document and sets page language to English -->
+<head>
+  <!-- Information about the page (not shown directly on screen) -->
+  <meta charset="UTF-8">
+  <!-- Supports most characters and symbols from many languages -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Makes the page scale correctly on phones and tablets -->
+  <meta name="description" content="Portfolio website of Aaryan Mali, UX Designer with 5 years of experience.">
+  <!-- Short page description used by search engines -->
+  <title>Aaryan Mali | UX Designer</title>
+  <!-- Text shown on the browser tab -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <!-- Connects this HTML page to the CSS file for styling -->
+</head>
+<body>
+  <!-- Everything inside body is visible on the webpage -->
+  <nav class="navbar">
+    <!-- Main navigation menu -->
+    <div class="container nav-content">
+      <a class="brand" href="index.html">Aaryan Mali</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links" id="primary-nav">
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="hero" id="home">
+    <div class="hero-content container">
+      <h1>Hi, I'm Aaryan Mali UX Designer</h1>
+      <p>I design digital experiences that people actually enjoy using.</p>
+      <a class="cta-button" href="#projects">See My Work</a>
+    </div>
+  </section>
+
+  <section class="skills-section" id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <article class="skill-card">
+          <span class="skill-icon" aria-hidden="true">🔎</span>
+          <h3>User Research</h3>
+          <p>Understanding real user needs through interviews, surveys, and behavior analysis.</p>
+        </article>
+        <article class="skill-card">
+          <span class="skill-icon" aria-hidden="true">🧩</span>
+          <h3>Wireframing</h3>
+          <p>Planning page layouts and user flows with low-fidelity structure before visual design.</p>
+        </article>
+        <article class="skill-card">
+          <span class="skill-icon" aria-hidden="true">⚡</span>
+          <h3>Prototyping</h3>
+          <p>Building interactive mockups to test ideas quickly and validate design decisions.</p>
+        </article>
+        <article class="skill-card">
+          <span class="skill-icon" aria-hidden="true">🎨</span>
+          <h3>Figma</h3>
+          <p>Designing polished interfaces and collaborative design systems using Figma workflows.</p>
+        </article>
+        <article class="skill-card">
+          <span class="skill-icon" aria-hidden="true">🧪</span>
+          <h3>Usability Testing</h3>
+          <p>Running tests with users to uncover friction points and improve product usability.</p>
+        </article>
+        <article class="skill-card">
+          <span class="skill-icon" aria-hidden="true">✨</span>
+          <h3>Visual Design</h3>
+          <p>Creating clear and appealing interfaces with strong typography, color, and hierarchy.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <header class="site-header">
+    <!-- Top section of the page, usually for name/logo and intro -->
+    <div class="container">
+      <!-- Keeps content aligned and limited to a readable width -->
+      <h1>Aaryan Mali</h1>
+      <!-- Main heading of the page -->
+      <p>UX Designer | 5 Years of Experience</p>
+      <!-- Short subtitle describing the person -->
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Main content area of the webpage -->
+    <section id="about">
+      <!-- A separate content block inside the main area -->
+      <h2>Welcome</h2>
+      <!-- Subheading for this section -->
+      <p>This is the starting template for Aaryan Mali's professional portfolio website.</p>
+      <!-- Paragraph text shown under the subheading -->
+    </section>
+    <section id="projects">
+      <h2>Projects</h2>
+      <p>Project case studies will be added here.</p>
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Contact details and social links will be added here.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <h2>Aaryan Mali</h2>
+        <p>UX Designer crafting intuitive digital experiences.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="footer-socials">
+        <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://dribbble.com" target="_blank" rel="noopener noreferrer">Dribbble</a>
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
+      <p class="footer-copy">© 2026 Aaryan Mali. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <!-- Connects JavaScript file for future interactivity -->
+</body>
+</html>
